@@ -1,3 +1,4 @@
+import AboutMe from '../../sections/AboutMe';
 import Experience from '../../sections/Experience';
 import Footer from '../../sections/Footer';
 import '../../styles/main.css';
@@ -9,6 +10,7 @@ function App() {
       <div className="my-8 mx-6">
         <Header />
         <Experience />
+        <AboutMe />
       </div>
       <Footer />
     </>

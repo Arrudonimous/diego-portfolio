@@ -2,6 +2,7 @@ import { BiArrowToBottom } from 'react-icons/bi';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import SocialMedias from '../SocialMedias';
 import Avatar from '../../assets/images/AvatarAndIcons.svg';
+import Card from '../Card';
 
 export default function Header() {
   return (
@@ -11,9 +12,7 @@ export default function Header() {
         <img src={Avatar} alt="" />
       </div>
       <div className="w-full mt-9">
-        <div className="flex bg-footer rounded-lg text-text font-bold text-sm items-center justify-center w-[7rem] py-1">
-          <h1>👋Olá</h1>
-        </div>
+        <Card text="👋Olá" />
         <h1 className="text-white font-extrabold text-5xl mt-4">Diego</h1>
         <h1 className="text-white font-extrabold text-5xl mb-1">Arruda</h1>
         <span className="text-white opacity-50 text-lg">FullStack Developer</span>
