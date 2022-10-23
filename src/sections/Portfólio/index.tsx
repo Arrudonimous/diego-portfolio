@@ -48,7 +48,7 @@ export default function Potfólio() {
 
       <div className=" md:grid hidden grid-cols-4 gap-16">
         {Projects.map((item) => (
-          <div className="border-2 rounded-lg border-border py-6 px-8 text-white mt-7 hover:scale-[1.01] hidden md:flex">
+          <div className="border-2 rounded-lg border-border py-6 px-8 text-white mt-7 hover:scale-[1.01] md:w-[18rem] hidden md:flex">
             <a href={item.link}>
               <h1 className="font-bold text-xl mb-2">{item.title}</h1>
               <span className="font-medium text-base opacity-50 flex mb-20">
