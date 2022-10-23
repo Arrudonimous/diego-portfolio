@@ -37,9 +37,11 @@ export default function Header() {
         <div className="-mt-5 ml-5 md:ml-0 hover:scale-[1.01] md:mt-0 ">
           <img src={Avatar} alt="" className="md:w-[35rem] md:h-[35rem] hidden md:flex" />
         </div>
-        <div className="flex w-full mt-10 flex-row items-center text-text opacity-50 md:mt-0 md:justify-end md:w-1/3">
-          <a href="/" className="font-semibold text-base">Baixar CV</a>
-          <BiArrowToBottom size={25} className="flex mr-4" />
+        <div className="flex w-full mt-10 flex-row items-center md:items-end text-text opacity-50 md:mt-0 md:justify-center md:w-1/3 md:flex-col md:gap-2">
+          <div className="flex flex-row">
+            <a href="/" className="font-semibold text-base">Baixar CV</a>
+            <BiArrowToBottom size={25} className="flex mr-4" />
+          </div>
           <LinkInstagram />
         </div>
       </div>
