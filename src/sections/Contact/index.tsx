@@ -24,7 +24,7 @@ export default function Contact() {
         </CopyToClipboard>
       </div>
 
-      <Link to="Header" smooth offset={-128} spy className="flex flex-row items-center text-text font-semibold my-16">
+      <Link to="Header" smooth offset={-128} spy className="flex flex-row items-center text-text font-semibold my-16 hover:cursor-pointer">
         <h1>Voltar ao topo</h1>
         <TbArrowTopBar size={20} className="flex" />
       </Link>
