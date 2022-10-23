@@ -12,7 +12,7 @@ import Header from '../Header';
 function App() {
   return (
     <>
-      <div className="my-8 mx-6">
+      <div className="my-8 mx-6 md:my-9 md:mx-36">
         <Header />
         <Experience />
         <AboutMe />
