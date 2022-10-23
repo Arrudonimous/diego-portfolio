@@ -10,7 +10,7 @@ export default function SocialMedias() {
         <AiOutlineInstagram size={30} color="#FFFFFF" />
       </a>
 
-      <a href="https://www.instagram.com/arrudonimous.js/">
+      <a href="https://www.linkedin.com/in/diego-arruda-9586791bb/">
         <AiOutlineLinkedin size={30} color="#FFFFFF" />
       </a>
     </div>
