@@ -26,5 +26,6 @@ module.exports = {
     'import/no-unresolved': 0,
     'react/react-in-jsx-scope': 0,
     'array-callback-return': 0,
+    'react/no-unescaped-entities': 0,
   },
 };

@@ -1,4 +1,5 @@
 import AboutMe from '../../sections/AboutMe';
+import Career from '../../sections/Career';
 import Experience from '../../sections/Experience';
 import Footer from '../../sections/Footer';
 import Potfólio from '../../sections/Portfólio';
@@ -15,6 +16,7 @@ function App() {
         <AboutMe />
         <Potfólio />
         <Skills />
+        <Career />
       </div>
       <Footer />
     </>
