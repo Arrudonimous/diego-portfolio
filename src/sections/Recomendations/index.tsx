@@ -2,7 +2,6 @@ import { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { MdFormatQuote } from 'react-icons/md';
 import Card from '../../components/Card';
-import Image from '../../assets/images/ImageTest.jpg';
 import RecomendationsMock from '../../assets/mocks/Recomendations';
 
 export default function Recomendations() {

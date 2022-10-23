@@ -1,12 +1,12 @@
 import { BiArrowToBottom } from 'react-icons/bi';
-import { AiOutlineInstagram } from 'react-icons/ai';
 import SocialMedias from '../SocialMedias';
 import Avatar from '../../assets/images/AvatarAndIcons.svg';
 import Card from '../Card';
+import LinkInstagram from '../LinkInstagram';
 
 export default function Header() {
   return (
-    <div className="flex items-center justify-center flex-col">
+    <div className="flex items-center justify-center flex-col" id="Header">
       <SocialMedias />
       <div className="-mt-5 ml-5 hover:scale-[1.01]">
         <img src={Avatar} alt="" />
@@ -19,11 +19,8 @@ export default function Header() {
       </div>
       <div className="flex w-full mt-5 flex-row items-center text-text opacity-50">
         <a href="/" className="font-semibold text-base">Baixar CV</a>
-        <BiArrowToBottom size={25} />
-        <a href="https://www.instagram.com/arrudonimous.js/" className="border-text border-2 rounded-lg py-3 px-2 ml-4 font-semibold text-base flex flex-row gap-2">
-          <AiOutlineInstagram size={25} />
-          <h1>Vamos Conversar</h1>
-        </a>
+        <BiArrowToBottom size={25} className="flex mr-4" />
+        <LinkInstagram />
       </div>
     </div>
   );
