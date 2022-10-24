@@ -4,10 +4,10 @@
 
 body{
   font-family: 'Raleway';
+  overflow-x:hidden
 }
 body::-webkit-scrollbar {
   width: 10px;
-  /* display: none; */
 }
 
 body::-webkit-scrollbar-track {
