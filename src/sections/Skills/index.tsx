@@ -63,16 +63,16 @@ export default function Skills() {
           <SiInsomnia size={50} />
         </SwiperSlide>
       </Swiper>
-      <div className="hidden md:flex text-text opacity-50 gap-4">
-        <SiReact size={70} />
-        <SiJavascript size={70} className="rounded-lg" />
-        <SiTypescript size={70} className="rounded-lg" />
-        <IoLogoNodejs size={75} />
-        <SiTailwindcss size={70} />
-        <SiCss3 size={70} />
-        <SiHtml5 size={70} />
-        <SiGithub size={70} />
-        <SiInsomnia size={70} />
+      <div className="hidden md:flex text-text gap-4 ">
+        <SiReact size={70} className="hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
+        <SiJavascript size={70} className="rounded-lg hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
+        <SiTypescript size={70} className="rounded-lg hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
+        <IoLogoNodejs size={75} className="hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
+        <SiTailwindcss size={70} className="hover:scale-[1.1] opacity-50 hover:opacity-100 " />
+        <SiCss3 size={70} className="hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
+        <SiHtml5 size={70} className="hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
+        <SiGithub size={70} className="hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
+        <SiInsomnia size={70} className="hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
       </div>
 
       <span className="flex text-sm md:text-2xl opacity-50 mt-8 mb-6 md:mb-10">Outras techs com que já realizei projetos</span>
@@ -95,11 +95,11 @@ export default function Skills() {
         </SwiperSlide>
       </Swiper>
 
-      <div className="hidden md:flex  text-text opacity-50 gap-4">
-        <SiFigma size={70} />
-        <SiDocker size={70} />
-        <GrMysql size={70} />
-        <SiMongodb size={70} />
+      <div className="hidden md:flex  text-text  gap-4">
+        <SiFigma size={70} className="hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
+        <SiDocker size={70} className="hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
+        <GrMysql size={70} className="hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
+        <SiMongodb size={70} className="hover:scale-[1.1] opacity-50 hover:opacity-100 transition-all duration-200" />
 
       </div>
     </div>
