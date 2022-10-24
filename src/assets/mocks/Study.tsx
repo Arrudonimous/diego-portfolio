@@ -19,7 +19,7 @@ export default [
   },
   {
     title: 'EF SET 76/100',
-    description: 'Certificado de teste de inglês onlin',
+    description: 'Certificado de teste de inglês online',
     time: '2 Meses',
     date: 'Agosto/2022',
   },
