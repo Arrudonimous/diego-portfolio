@@ -1,5 +1,6 @@
 import { BiArrowToBottom } from 'react-icons/bi';
 import { Link } from 'react-scroll';
+import { FiArrowDown } from 'react-icons/fi';
 import SocialMedias from '../SocialMedias';
 import Avatar from '../../assets/images/Avatar.svg';
 import Icons from '../../assets/images/Icons.png';
@@ -24,7 +25,7 @@ export default function Header() {
         </ul>
       </nav>
 
-      <div className="md:flex md:flex-row md:w-full md:justify-between md:mt-24 md:mb-44 w-full">
+      <div className="md:flex md:flex-row md:w-full md:justify-between md:mt-16  w-full">
         <div className="hover:scale-[1.01]">
           <div className="flex items-center justify-center">
             <img src={Background} alt="" className="w-[18rem] md:h-[18rem] flex md:hidden absolute" />
@@ -57,6 +58,17 @@ export default function Header() {
           </div>
           <LinkInstagram />
         </div>
+        <div className="flex items-center justify-center md:hidden">
+          <Link smooth offset={-128} spy to="About" className="flex bg-footer p-4 rounded-[6rem] border-2 border-border mt-8 text-text animate-bounce hover:cursor-pointer">
+            <FiArrowDown size={30} />
+          </Link>
+        </div>
+      </div>
+
+      <div className="md:flex items-center justify-center hidden mt-5 md:mb-44">
+        <Link smooth offset={-128} spy to="About" className="flex bg-footer p-4 rounded-[6rem] border-2 border-border mt-8 text-text animate-bounce hover:cursor-pointer">
+          <FiArrowDown size={30} />
+        </Link>
       </div>
     </div>
   );
