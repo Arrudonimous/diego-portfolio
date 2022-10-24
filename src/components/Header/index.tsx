@@ -25,9 +25,9 @@ export default function Header() {
         </ul>
       </nav>
 
-      <div className="md:flex md:flex-row md:w-full md:justify-between md:mt-16  w-full">
+      <div className="md:flex md:flex-row md:w-full md:justify-between md:mt-16 w-full">
         <div className="hover:scale-[1.01]">
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center m-0">
             <img src={Background} alt="" className="w-[18rem] md:h-[18rem] flex md:hidden absolute" />
             <img src={Icons} alt="" className="absolute md:hidden animate-spin-slow opacity-50 w-[24rem]" />
             <img src={Avatar} alt="" className="md:hidden w-[14rem] mt-24 z-50" />
@@ -52,8 +52,8 @@ export default function Header() {
           </div>
         </div>
         <div className="flex w-full mt-10 flex-row items-center md:items-end text-text opacity-50 md:mt-0 md:justify-center md:w-1/3 md:flex-col md:gap-2">
-          <div className="flex flex-row">
-            <a href="/" className="font-semibold text-base">Baixar CV</a>
+          <div className="flex flex-row hover:cursor-pointer">
+            <a href="https://drive.google.com/file/d/162HDua0i-XvOKIORHcX3fe7G14mIlFXr/view?usp=sharing" target="_blank" className="font-semibold text-base" rel="noreferrer">Baixar CV</a>
             <BiArrowToBottom size={25} className="flex mr-4" />
           </div>
           <LinkInstagram />
