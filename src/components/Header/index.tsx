@@ -1,7 +1,9 @@
 import { BiArrowToBottom } from 'react-icons/bi';
 import { Link } from 'react-scroll';
 import SocialMedias from '../SocialMedias';
-import Avatar from '../../assets/images/AvatarAndIcons.svg';
+import Avatar from '../../assets/images/Avatar.svg';
+import Icons from '../../assets/images/Icons.png';
+import Background from '../../assets/images/Background.svg';
 import Card from '../Card';
 import LinkInstagram from '../LinkInstagram';
 
@@ -22,9 +24,13 @@ export default function Header() {
         </ul>
       </nav>
 
-      <div className="md:flex md:flex-row md:w-full md:justify-between md:mt-24 md:mb-44">
-        <div className="-mt-5 ml-5 hover:scale-[1.01]">
-          <img src={Avatar} alt="" className="md:hidden" />
+      <div className="md:flex md:flex-row md:w-full md:justify-between md:mt-24 md:mb-44 w-full">
+        <div className="hover:scale-[1.01]">
+          <div className="flex items-center justify-center">
+            <img src={Background} alt="" className="w-[18rem] md:h-[18rem] flex md:hidden absolute" />
+            <img src={Icons} alt="" className="absolute md:hidden animate-spin-slow opacity-50 w-[24rem]" />
+            <img src={Avatar} alt="" className="md:hidden w-[14rem] mt-24 z-50" />
+          </div>
         </div>
         <div className="md:flex w-full mt-9 md:w-1/3 md:mt-0 md:flex-col md:justify-center">
           <Card text="👋 Olá" />
@@ -36,7 +42,13 @@ export default function Header() {
           </div>
         </div>
         <div className="-mt-5 ml-5 md:ml-0 hover:scale-[1.01] md:mt-0 ">
-          <img src={Avatar} alt="" className="md:w-[35rem] md:h-[35rem] hidden md:flex" />
+          <div className=" flex justify-center">
+            <div className="hidden md:flex">
+              <img src={Background} alt="" className="w-[24rem] md:h-[24rem] hidden md:flex absolute" />
+              <img src={Icons} alt="" className="absolute hidden md:flex animate-spin-slow opacity-50 " />
+            </div>
+            <img src={Avatar} alt="" className="hidden md:flex w-[24rem] md:h-[24rem] z-50 mt-14 ml-1" />
+          </div>
         </div>
         <div className="flex w-full mt-10 flex-row items-center md:items-end text-text opacity-50 md:mt-0 md:justify-center md:w-1/3 md:flex-col md:gap-2">
           <div className="flex flex-row">
