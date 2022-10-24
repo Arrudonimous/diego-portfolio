@@ -1,4 +1,5 @@
 import { BiArrowToBottom } from 'react-icons/bi';
+import { Link } from 'react-scroll';
 import SocialMedias from '../SocialMedias';
 import Avatar from '../../assets/images/AvatarAndIcons.svg';
 import Card from '../Card';
@@ -11,13 +12,13 @@ export default function Header() {
         <SocialMedias />
       </div>
       <nav className="bg-footer w-full items-center py-3 rounded-2xl justify-center hidden md:flex ">
-        <ul className="flex flex-row gap-10 text-white opacity-50 text-lg">
-          <li className="text-text font-bold">Home</li>
-          <li>Sobre Mim</li>
-          <li>Portfólio</li>
-          <li>Skills</li>
-          <li>Recomendações</li>
-          <li>Contatos</li>
+        <ul className="flex flex-row gap-10 text-white opacity-50 text-lg ">
+          <Link to="Home" smooth offset={-128} spy className="text-text font-bold hover:cursor-pointer hover:opacity-80">Home</Link>
+          <Link to="About" smooth offset={-128} spy className="hover:cursor-pointer hover:opacity-80">Sobre Mim</Link>
+          <Link to="Portfolio" smooth offset={-128} spy className="hover:cursor-pointer hover:opacity-80">Portfólio</Link>
+          <Link to="Skills" smooth offset={-128} spy className="hover:cursor-pointer hover:opacity-80">Skills</Link>
+          <Link to="Recomendations" smooth offset={-128} spy className="hover:cursor-pointer hover:opacity-80">Recomendações</Link>
+          <Link to="Contacts" smooth offset={-128} spy className="hover:cursor-pointer hover:opacity-80">Contatos</Link>
         </ul>
       </nav>
 

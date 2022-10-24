@@ -27,5 +27,7 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'array-callback-return': 0,
     'react/no-unescaped-entities': 0,
+    'jsx-a11y/click-events-have-key-events': 0,
+    'jsx-a11y/no-static-element-interactions': 0,
   },
 };

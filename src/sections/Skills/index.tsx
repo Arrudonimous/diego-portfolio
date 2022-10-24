@@ -15,7 +15,7 @@ import CardWork from '../../components/CardWork';
 
 export default function Skills() {
   return (
-    <div className="mt-16 text-white md:mt-36 md:flex md:flex-col md:justify-center md:items-center md:w-full">
+    <div className="mt-16 text-white md:mt-36 md:flex md:flex-col md:justify-center md:items-center md:w-full" id="Skills">
       <div className="md:hidden">
         <Card text="🧑‍💻 Skills " />
       </div>

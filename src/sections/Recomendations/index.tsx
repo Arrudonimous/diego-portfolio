@@ -6,7 +6,7 @@ import RecomendationsMock from '../../assets/mocks/Recomendations';
 
 export default function Recomendations() {
   return (
-    <div className="mt-16">
+    <div className="mt-16" id="Recomendations">
       <Card text="💬 Recomendações" />
       <h1 className="mt-4 font-extrabold text-white text-2xl md:hidden">Em </h1>
       <h1 className="font-extrabold text-white text-2xl md:hidden">depoimento</h1>

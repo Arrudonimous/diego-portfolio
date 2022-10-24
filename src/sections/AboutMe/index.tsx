@@ -3,7 +3,7 @@ import Card from '../../components/Card';
 
 export default function AboutMe() {
   return (
-    <div className="flex flex-col mt-20 items-center justify-center md:flex-row md:gap-52 md:mt-36">
+    <div className="flex flex-col mt-20 items-center justify-center md:flex-row md:gap-52 md:mt-36" id="About">
       <img src={ProfilePic} alt="" className="w-80 mb-8 hover:scale-[1.01] md:w-[50rem]" />
       <div className="w-full">
         <Card text="🧐 Sobre mim" />

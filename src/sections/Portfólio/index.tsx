@@ -8,7 +8,7 @@ import CardWork from '../../components/CardWork';
 
 export default function Potfólio() {
   return (
-    <div className="flex mt-24 flex-col md:mt-32">
+    <div className="flex mt-24 flex-col md:mt-32" id="Portfolio">
       <Card text="🔗 Portfólio" />
       <h1 className="mt-4 font-extrabold text-white text-2xl md:hidden">Trabalhos </h1>
       <h1 className="font-extrabold text-white text-2xl md:hidden">e Projetos</h1>
