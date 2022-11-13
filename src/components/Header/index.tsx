@@ -51,9 +51,16 @@ export default function Header() {
             <img src={Avatar} alt="" className="hidden md:flex w-[24rem] md:h-[24rem] z-50 mt-14 ml-1" />
           </div>
         </div>
-        <div className="flex w-full mt-10 flex-row items-center md:items-end text-text opacity-50 md:mt-0 md:justify-center md:w-1/3 md:flex-col md:gap-2">
+        <div className="flex w-full mt-10 flex-row items-center md:items-end text-text opacity-80 md:mt-0 md:justify-center md:w-1/3 md:flex-col md:gap-2">
           <div className="flex flex-row hover:cursor-pointer">
-            <a href="https://drive.google.com/file/d/162HDua0i-XvOKIORHcX3fe7G14mIlFXr/view?usp=sharing" target="_blank" className="font-semibold text-base" rel="noreferrer">Baixar CV</a>
+            <a
+              href="https://drive.google.com/file/d/162HDua0i-XvOKIORHcX3fe7G14mIlFXr/view?usp=sharing"
+              target="_blank"
+              className="font-semibold text-base"
+              rel="noreferrer"
+            >
+              Baixar CV
+            </a>
             <BiArrowToBottom size={25} className="flex mr-4" />
           </div>
           <LinkInstagram />
