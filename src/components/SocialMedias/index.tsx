@@ -6,7 +6,7 @@ export default function SocialMedias() {
       <a href="https://github.com/Arrudonimous">
         <AiOutlineGithub size={30} color="#FFFFFF" />
       </a>
-      <a href="https://www.instagram.com/arrudonimous.js/">
+      <a href="https://www.instagram.com/_arruda.js/">
         <AiOutlineInstagram size={30} color="#FFFFFF" />
       </a>
 

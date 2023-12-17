@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "app.vercel.diegoarruda.twa",
+                     "sha256_cert_fingerprints": ["C8:CB:FA:21:72:D6:82:B8:C8:22:50:DE:9D:40:47:C0:35:9F:49:76:1E:7C:F7:63:18:04:6A:9C:0A:44:CF:F5"] }
+      }
+]

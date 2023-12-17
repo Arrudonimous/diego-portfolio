@@ -49,17 +49,21 @@ export default function Potfólio() {
       <div className=" md:grid hidden grid-cols-4 gap-16">
         {Projects.map((item) => (
           <div className="border-2 rounded-lg border-border py-6 px-8 text-white mt-7 hover:scale-[1.01] md:w-[18rem] hidden md:flex">
-            <a href={item.link}>
-              <h1 className="font-bold text-xl mb-2">{item.title}</h1>
-              <span className="font-medium text-base opacity-50 flex mb-20">
-                {item.description}
-              </span>
-              <div className="flex flex-row gap-3 mb-5">
-                {item.cards.map((value) => (
-                  <CardWork text={value.name} />
-                ))}
+            <a href={item.link} className="flex flex-col justify-between">
+              <div>
+                <h1 className="font-bold text-xl mb-2">{item.title}</h1>
+                <span className="font-medium text-base opacity-50 flex mb-20">
+                  {item.description}
+                </span>
               </div>
-              <img src={item.image} alt="" className="w-full rounded-lg" />
+              <div>
+                <div className="flex flex-row gap-3 mb-5">
+                  {item.cards.map((value) => (
+                    <CardWork text={value.name} />
+                  ))}
+                </div>
+                <img src={item.image} alt="" className="w-full rounded-lg" />
+              </div>
             </a>
           </div>
         ))}

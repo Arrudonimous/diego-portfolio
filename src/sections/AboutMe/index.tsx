@@ -12,15 +12,18 @@ export default function AboutMe() {
         <div className="flex flex-col font-medium text-lg text-white opacity-50 gap-3 md:mt-5">
           <span className="block">
             👱🏻‍♂️Pode me chamar apenas de Diego! Sempre fui apaixonado por tecnologia e
-            suas vertentes, em 2020 entrei no curso de Desenvolvimento de Sistemas,
-            juntamente com o ensino médio, pela Etec de Santana de Parnaíba.
+            sua capacidade de mudar o mundo, em 2020 entrei no curso de
+            Desenvolvimento de Sistemas, pela Etec de Santana de Parnaíba,
+            onde tive o meu primeiro contato com programação.
           </span>
           <span className="block">
-            ✍🏼Há mais ou menos 1 ano comecei estudar a fundo NodeJS, JavaScript
-            e TypeScript para o desenvolvimento do meu TCC, que será finalizado no ano de 2022.
+            ✍🏼 No início de 2022 iniciei os estudos em NodeJS, JavaScript
+            e TypeScript para o desenvolvimento do meu TCC, que foi finalizado
+            no ano de 2022. E atualmente curso bacharelado em
+            Ciências da Computação na Unip de Alphaville
           </span>
           <span className="block">
-            💻Na metade de 2022 comecei a me interessar no desenvolvimento Front-End , assim
+            💻Na metade de 2022 comecei a me interessar no desenvolvimento Front-End, assim
             me aprofundando em ReactJS e superficialmente em ReactNative, me tornando um dev
             FullStack júnior.
           </span>
