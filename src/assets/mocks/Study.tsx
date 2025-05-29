@@ -1,4 +1,11 @@
-export default [
+interface Study {
+  title: string;
+  description: string;
+  time: string;
+  date: string;
+}
+
+const studies: Study[] = [
   {
     title: 'Bacharelado CC',
     description: 'Bacharelado em Ciência da Computação na Unip de Alphaville',
@@ -30,3 +37,5 @@ export default [
     date: 'Agosto/2022',
   },
 ];
+
+export default studies;

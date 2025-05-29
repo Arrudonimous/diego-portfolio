@@ -1,4 +1,11 @@
-export default [
+interface Work {
+  title: string;
+  description: string;
+  time: string;
+  date: string;
+}
+
+const works: Work[] = [
   {
     title: 'Desenvolvedor front-end Jr II - Looplex',
     description: 'Trabalho como desenvolvedor front-end jr na empresa Looplex',
@@ -30,3 +37,5 @@ export default [
     date: 'Fevereiro/2023 · Maio/2023',
   },
 ];
+
+export default works;

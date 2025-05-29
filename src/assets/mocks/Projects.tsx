@@ -3,7 +3,19 @@ import AcquaBuilding from '../images/AcquaBuilding.png';
 import WeatherApp from '../images/Weather App.png';
 import DevTech from '../images/DevTech.png';
 
-export default [
+interface Card {
+  name: string;
+}
+
+interface Project {
+  title: string;
+  description: string;
+  cards: Card[];
+  image: string;
+  link: string;
+}
+
+const projects: Project[] = [
   {
     title: 'Github Finder',
     description: 'Aplicação que busca o perfil de alguém no github utilizando seu username com tema dark e light.',
@@ -61,3 +73,5 @@ export default [
     link: 'https://devtech.vercel.app',
   },
 ];
+
+export default projects;

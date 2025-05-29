@@ -1,6 +1,13 @@
 import Mario from '../images/Mario.jpg';
 
-export default [
+interface Recomendation {
+  description: string;
+  image: string;
+  name: string;
+  role: string;
+}
+
+const recomendations: Recomendation[] = [
   {
     description: `...Ademais, ele foi um 
     excelente aluno, sempre agindo com respeito e sendo
@@ -12,3 +19,5 @@ export default [
     role: 'Analista de sistemas',
   },
 ];
+
+export default recomendations;
