@@ -11,9 +11,9 @@ module.exports = {
         'spin-slow': 'spin 8s linear infinite',
       },
       colors: {
-        footer: 'rgba(211, 48, 28, 0.1)',
-        border: 'rgba(211, 48, 28, 0.5)',
-        text: '#D3301C',
+        footer: 'rgba(123,74,226, 0.1)',
+        border: 'rgba(123,74,226, 0.5)',
+        text: '#7B4AE2',
       },
     },
   },
